@@ -1,0 +1,123 @@
+
+.budu-signin-page {
+  min-height: 100vh;
+  box-sizing: border-box;
+  display: grid;
+  place-items: center;
+  padding: 24px 16px;
+  background:
+    radial-gradient(ellipse at top left, #f8e5e4 0%, transparent 48%),
+    linear-gradient(145deg, #fffaf6, #f7ece8);
+  color: #563b42;
+}
+
+.budu-signin-card {
+  box-sizing: border-box;
+  width: min(100%, 440px);
+  padding: clamp(24px, 6vw, 42px);
+  border: 1px solid #ead7d5;
+  border-radius: 24px;
+  background: rgb(255 250 246 / 94%);
+  box-shadow: 0 20px 65px rgb(86 59 66 / 10%);
+  text-align: center;
+}
+
+.budu-signin-eyebrow {
+  color: #a96575;
+  font-size: 0.7rem;
+  letter-spacing: 0.16em;
+}
+
+.budu-signin-card h1 {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: clamp(2.2rem, 9vw, 3.3rem);
+  font-weight: 400;
+  margin: 18px 0 0;
+}
+
+.budu-signin-card h1 span {
+  color: #b77d88;
+  font-style: italic;
+}
+
+.budu-signin-subtitle {
+  color: #a96575;
+  margin-top: 6px;
+}
+
+.budu-signin-divider {
+  color: #b77d88;
+  margin: 25px 0;
+}
+
+.budu-signin-card h2 {
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+.budu-signin-description,
+.budu-signin-footnote {
+  color: #80666a;
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
+.budu-signin-card form {
+  display: grid;
+  gap: 10px;
+  margin-top: 25px;
+  text-align: left;
+}
+
+.budu-signin-card label {
+  margin-top: 8px;
+  font-size: 0.9rem;
+}
+
+.budu-signin-card input {
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+  padding: 13px 14px;
+  border: 1px solid #dfc6c6;
+  border-radius: 10px;
+  background: white;
+  color: #563b42;
+  font: inherit;
+}
+
+.budu-signin-card input:focus {
+  outline: 2px solid #c88d9a;
+  outline-offset: 2px;
+}
+
+.budu-signin-card form button {
+  margin-top: 12px;
+  padding: 14px 16px;
+  border: 0;
+  border-radius: 999px;
+  background: #a96575;
+  color: white;
+  font: inherit;
+  cursor: pointer;
+}
+
+.budu-signin-card form button:disabled {
+  opacity: 0.65;
+  cursor: wait;
+}
+
+.budu-signin-error {
+  color: #a12e3a;
+  background: #fff0f0;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 0.9rem;
+  overflow-wrap: anywhere;
+}
+
+.budu-signin-footnote {
+  margin: 24px 0 0;
+  font-size: 0.78rem;
+}
